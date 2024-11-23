@@ -1,16 +1,17 @@
 <template>
     <div>
-        <ResponsApi/>
+        <!--<ResponsApi/>-->
+        <ComponentTs/>
     </div>
 </template>
 
 <script>
-import ResponsApi from "./components/view/ResponsApi"
-
+//import ResponsApi from "./components/view/ResponsApi"
+import ComponentTs from "./components/view/ComponentTs"
 export default {
   name: 'App',
   components: {
-      ResponsApi
+      ComponentTs
   }
 }
 </script>
