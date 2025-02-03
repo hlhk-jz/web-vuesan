@@ -4,7 +4,8 @@
         <!--<ComponentTs/>-->
         <!--<UserInfo/>-->
         <!--<TestView/>-->
-        <PromiseView/>
+        <!--<PromiseView/>-->
+        <SelectTs/>
     </div>
 </template>
 
@@ -13,11 +14,12 @@
 //import ComponentTs from "./components/view/ComponentTs"
 //import UserInfo from  "./components/view/UserInfo"
 //import TestView from "./components/view/TestView"
-import PromiseView from "./components/view/PromiseView"
+//import PromiseView from "./components/view/PromiseView"
+import SelectTs from "./components/view/SelectTs.vue"
 export default {
   name: 'App',
   components: {
-      PromiseView
+      SelectTs
       //TestView
       //UserInfo
   }
