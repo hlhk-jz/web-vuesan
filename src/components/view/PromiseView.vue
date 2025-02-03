@@ -6,12 +6,16 @@
     /* eslint-disable no-unused-vars */
     //异步请求传统方式，回调地狱
     /*function req(callbak) {
+        //3 模拟网络请求，返回结果通过回调函数进行处理
         setTimeout(()=>{
             callbak(200,"成功","我是数据")
         },3000)
     }
+    //1 用户操作调用 requests 方法
     function requests() {
+       //2 发起请求，并传入回调函数
         req((code,msg,data)=>{
+            //4 通过回调函数处理请求
             if(code==200){
                console.log("请求成功：",data)
                 //如果还有其它请求，就会嵌套
