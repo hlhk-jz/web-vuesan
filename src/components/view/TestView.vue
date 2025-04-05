@@ -9,6 +9,4 @@
         //let { hours } = date;
         //console.log("hours",date.getDate());
     })
-
-
 </script>

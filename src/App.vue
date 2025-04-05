@@ -3,10 +3,10 @@
         <!--<ResponsApi/>-->
         <!--<ComponentTs/>-->
         <!--<UserInfo/>-->
-        <!--<TestView/>-->
+        <TestView/>
         <!--<PromiseView/>-->
         <!--<SelectTs/>-->
-        <LogoinTs/>
+        <!--<LogoinTs/>-->
     </div>
 </template>
 
@@ -14,14 +14,14 @@
 //import ResponsApi from "./components/view/ResponsApi"
 //import ComponentTs from "./components/view/ComponentTs"
 //import UserInfo from  "./components/view/UserInfo"
-//import TestView from "./components/view/TestView"
+import TestView from "./components/view/TestView"
 //import PromiseView from "./components/view/PromiseView"
 //import SelectTs from "./components/view/SelectTs.vue"
-import LogoinTs from "./components/view/LogoinTs.vue"
+//import LogoinTs from "./components/view/LogoinTs.vue"
 export default {
   name: 'App',
   components: {
-      LogoinTs
+      TestView
   }
 }
 </script>
